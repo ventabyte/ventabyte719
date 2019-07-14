@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <title>Ventabyte | The Web. Modernized.</title>
+</head>
+<body>
+<div id="Sidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="products.html">Products</a>
+  <a href="contact.html">Contact</a>
+  <a href="languages.html">Other Languages</a>
+    <a style="color:white;" class="gtp" href="portal.html">GO TO PORTAL</a>
+</div>
+<div>
+    <!-- Use any element to open the sidenav -->
+    <img src="logo.png" width="250px" height="100px">
+<span onclick="openNav()">&#9776;</span>
+    <br>
+    </div>
+        <h1>Welcome to the Ventabyte Internal Portal.</h1>
+    <br>
+    <div style="text-align:center;">
+        <button style="color:white;width:400px;" class="lgn" href="new_services">Requests for Review</button>
+    <br>
+        <button style="color:white;width:400px;" class="lgn" href="schedule_appointment">Consultations</button>
+    <br>
+                <button style="color:white;width:400px;" class="lgn" href="pay_invoice">Protection to Ventabyte Members - 066</button>
+    <br>
+        <button style="color:white;width:400px;" class="lgn" href="flash_drives">Information</button>
+    <br>
+    </div>
+    <br>
+    <div class="footer">
+        <br>
+    <h5>&copy; Ventabyte LLC 2019. All Rights Reserved.</h5>
+        <h5><a href="legal.html">Legal</a> | <a href="privacy.html">Privacy Policy</a></h5>
+        <br>
+    </div>
+</body>
+    <script>
+    /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
+function openNav() {
+  document.getElementById("Sidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+function closeNav() {
+  document.getElementById("Sidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+  document.body.style.backgroundColor = "white";
+}
+    </script>
+</html>

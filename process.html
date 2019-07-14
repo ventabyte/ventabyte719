@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>Ventabyte | The Web. Modernized.</title>
+</head>
+<body>
+    <div class="network">
+    <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="process.html">Process</a>
+    <a href="contact.html">Contact</a>
+      <a href="languages.html">Other Languages</a>
+      <a href="login.html">Log in <i style="font-size:30px;" class="fas fa-chevron-down"></i></a>
+  </div>
+</div>
+<span onclick="openNav()">&#9776;</span>
+        <img style="padding:14px;"src="headlogo.png" width="75" height="75">
+        <br>
+    <div class="land2">
+        <br>
+        <br><br>
+        <br>
+        <br>
+        <br>
+    <h2>our web portal.</h2>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+    </div>
+    <DIV style="text-align:center;padding: 8px;"><img src="IMG_0653.jpg" width="50%" height="20%"><h2 style="color:#333333;">this is ventabyte.</h2></DIV>
+    <div class="land">
+        <br>
+        <div class="inimg"><img class="inimg" src="graphic.svg" width="20%" height="30%"></div>
+        <h2>graphic design.</h2>
+ <button class="collapsible" id="services">Lines & Shapes <i class="fas fa-caret-down"></i></button>
+<div class="content">
+    <p style="background-color: transparent; color: black;">Line - <b>$0.13</b></p>
+         <p style="background-color: transparent; color: black;">Triangle - <b>$0.52</b></p>
+<p style="background-color: transparent; color: black;">Semicircle - <b>$0.52</b></p>
+    <p style="background-color: transparent; color: black;">Rectangle - <b>$1.04</b></p>
+    <p style="background-color: transparent; color: black;">Circle - <b>$1.04</b></p>
+    <p style="background-color: transparent; color: black;">5+ Sided Shape - <b>$2.08</b></p>
+</div>
+<button class="collapsible">Text & Others <i class="fas fa-caret-down"></i></button>
+<div class="content">
+<p style="background-color: transparent; color: black;">Latin Character Header 2 - <b>$0.46</b></p>
+    <p style="background-color: transparent; color: black;">Other Character Header 2 - <b>$.68</b></p>
+    <p style="background-color: transparent; color: black;">Latin Character Header - <b>$0.91</b></p>
+    <p style="background-color: transparent; color: black;">Image - <b>$1.04</b></p>
+    <p style="background-color: transparent; color: black;">Modified Image - <b>$1.56</b></p>
+    <p style="background-color: transparent; color: black;">Other Character Header - <b>$1.82</b></p>
+    <p style="background-color: transparent; color: black;">Background Image - <b>$2.08</b></p>
+    <p style="background-color: transparent; color: black;">Modified Background Image - <b>$3.12</b></p>
+    <p style="background-color: transparent; color: black;">Latin Character Body - <b>$3.64</b></p>
+    <p style="background-color: transparent; color: black;">Other Character Body - <b>$5.64</b></p>
+</div>
+        <br>
+        <br>
+    <div class="wd">
+        <div class="inimg2"><img class="inimg2" src="wd.svg" width="20%" height="30%"></div>
+        <h2>web development.</h2>
+<button style="padding: 8px; margin: 5px; background-color: #333333;"><a style="color:white;" href="login.html">Go to Portal to Get Quote &raquo;</a></button>
+        </div>
+        <div class="about">
+            <div class="inimg2"><img class="inimg2" src="phone-flash.svg" width="20%" height="30%"></div>
+        <h2>other services.</h2>
+<p style="color:white; text-align: left; padding-left: 30px; padding-right: 20%;"><b>Consultation.</b> We offer free consultations for all clients who need ideas and inspiration for their website design and interface. This service is available by phone or email. <b>Leasing.</b> Wnt to host your website on your own platform or servers? Just rent a flash drive from us with your code on it and copy the files to your preffered platform or server.</p>
+            <br>
+        </div>
+    </div>
+    <br>
+    <h6 style="text-align:center;">&copy; 2019 Ventabyte L.L.C. All rights reserved.</h6>
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+     <script>
+    // When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("myNav");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+    </script>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+    </script>
+</body>
+</html>
